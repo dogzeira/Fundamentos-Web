@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+/*ESTILO DA PAGINA index.html*/
+body{font-family: 'Shadows Into Light', cursive;
+   
+    background: url("https://www.varejaodastintas.com.br/wp-content/uploads/2017/11/shutterstock_109482227-1024x802.jpg");
+
+}
+/*criação de uma classe*/
+.img_titulo {
+    
+    position: relative;
+    text-align: center;
+    color: white;
+   
+
+}
+/*criação de outra classe*/
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.texto_foto {
+    /* está dizendo que a posição do texto é relativa a imagem */
+    position: relative;
+
+    /* alinhamneto do texto */
+    text-align: left;
+    
+    color: white;
+    
+    left: -70px; 
+
+}
+/*criação de outra classe*/
+.nome_foto {
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+  }
+
+
+   .imagem_corpo_texto  {
+    
+    text-align: left;
+    color: white;
+    
+
+}
+
+.imagem_corpo_texto02 {
+    position:relative;
+    left: 300px;
+    top:  50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  .gif{
+
+    background: url();
+  }
+
+  .hype{
+
+    position:fixed;
+    right: -170px;
+    top:  50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  /*ESTILO DA PAGINA contato.html*/
