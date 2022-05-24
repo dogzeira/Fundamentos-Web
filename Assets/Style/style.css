@@ -75,16 +75,83 @@ body{font-family: 'Shadows Into Light', cursive;
     
 }
 
+.videos {
+
+    display: block;
+  
+    text-align: center;
+  
+  }
+
+  .menu li a:hover { /* Hover Menu */
+    color: rgb(200, 200, 200);
+}
 
 
-    
+.nav_color li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+p {
+color:hsl(0, 0%, 100%);
+font-weight: bold;
+font-size: larger;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+filter: drop-shadow(5px 5px 5px #222);
+
+}
+
+.img_video {
+
+  position: relative;
+  text-align: center;
+  color: white;
+  
+   
+}
+
+.center{
+
+  text-align: center;
+
+}
+
+.logo_social{
+
+  position: relative;
+  text-align: center;
+
+}
+
+/*ESTILO DA PAGINA contato.html*/
+.enviar{
+  width: 10%;
+  padding: 8px 0;
+  background: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+/* .enviar:hover{
+  background: #b4b4ca;
+  transform: scale(1.1);
+} */
+
+.fundos{
+  background-color: #000000;
+}
+
+input, textarea {
+  color: #FFFFFF;
+}
 
 
 
 
-
-
-
-
-
-  /*ESTILO DA PAGINA contato.html*/
